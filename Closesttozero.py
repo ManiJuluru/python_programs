@@ -1,6 +1,9 @@
+import pdb
+
 def closest_to_zero(nums):
+    pdb.set_trace()
     closest = float('inf')  # Initialize closest to positive infinity
-    largest_closest = float('-inf')  # Initialize largest closest to negative infinity
+    largest_closest = float('-inf')  # Initialize largest closest to negative infynity
 
     for num in nums:
         abs_num = abs(num)
